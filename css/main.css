@@ -125,9 +125,21 @@
 .banner {
     color: #fff;
     height: 200px;
-    background-image: url(../assets/images/vintage-shop.jpg);
+    background-image: url(../assets/images/wallpaper.jpg);
     background-size:100% 100%;
 }
 .tagline {
     padding: 15% 0px;
+}
+
+/* Estilos  about section */
+
+.about {
+    background-color:#2078bf;
+}
+
+/*EStilos products section */
+
+.clothing, .figures, .vinyl {
+    background-color:#748796;
 }
