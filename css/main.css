@@ -140,7 +140,7 @@
 /* Estilos  about section */
 
 .about {
-    background-color:#f5f5de;
+    background-color:#eeecec;
 }
 .info, .contact {
   padding: 30px 0px;
@@ -181,10 +181,10 @@ h2 {
     margin-top: 10px;
   }
   .products {
-    background-color:#748796;
+    background-color:#fff;
   }
   .clothing, .figures, .vinyl {
-    background-color:#748796;
+    background-color:#fff;
   }
   img {
     border-radius:25px;
@@ -199,5 +199,19 @@ h2 {
   }
   .tagline {
     padding:10% 0;
+  }
+  .nav {
+    position: relative;
+    top:0px;
+    left:0;
+    width: 100%;
+    transition: all 0.4s;
+  }
+  .menu-link, .menu-item {
+    display:inline;
+    float:right;
+  }
+  .icon-menu {
+    display:none;
   }
 }
