@@ -175,6 +175,7 @@ img {
 
 /* Estilos footer section */
 .footer {
+  height:50px;
   padding:10px;
   color: #fff;
   background-color: #302e34;
