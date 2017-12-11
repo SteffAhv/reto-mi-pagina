@@ -140,7 +140,7 @@
 /* Estilos  about section */
 
 .about {
-    background-color:#eeecec;
+    background-color:#dddddd;
 }
 .info, .contact {
   padding: 30px 0px;
@@ -163,7 +163,11 @@ h2 {
 /*EStilos products section */
 
 .clothing, .figures, .vinyl {
-    background-color:#748796;
+    background-color:#fff;
+}
+img {
+  width:100%;
+  max-width:370px;
 }
 .products p {
   padding:15px;
