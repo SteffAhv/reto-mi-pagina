@@ -170,3 +170,34 @@ h2 {
   color: #fff;
   background-color: #302e34;
 }
+
+@media screen and (min-width:780px){
+  .col-4 {
+    width: 33.333333%;
+    overflow:hidden;
+  }
+  .products {
+    /* padding:10px; */
+    margin-top: 10px;
+  }
+  .products {
+    background-color:#748796;
+  }
+  .clothing, .figures, .vinyl {
+    background-color:#748796;
+  }
+  img {
+    border-radius:25px;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .banner {
+    height: 400px;
+    font-size: 30px;
+    color:#302e34;
+  }
+  .tagline {
+    padding:10% 0;
+  }
+}
