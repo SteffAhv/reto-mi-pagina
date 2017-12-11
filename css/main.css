@@ -16,12 +16,10 @@
 
 .row:before, .row:after {
     content : "";
-    display: block;
+    display: table;
     clear: both;
 }
-.row {
-    margin-bottom : 10px;
-}
+
 
 [class*='col-'] {
     float: left;
@@ -79,10 +77,10 @@
   .header {
     height: 60px;
     background-color: #795164;
+    padding:5px;
   }
   
   .logo, .icon-menu {
-    padding:5px;
     vertical-align: middle;
     display:inline-block;
     color:#000;
@@ -122,3 +120,14 @@
   .mostrar {
     left: 0;
   }
+
+  /* Estilos Banner */
+.banner {
+    color: #fff;
+    height: 200px;
+    background-image: url(../assets/images/vintage-shop.jpg);
+    background-size:100% 100%;
+}
+.tagline {
+    padding: 15% 0px;
+}
