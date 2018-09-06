@@ -7,6 +7,7 @@
     font-family: 'Advent Pro', sans-serif;
     text-align: center;
 }
+
 /*Grid*/
 
 .container {
@@ -229,4 +230,13 @@ img {
   .icon-menu {
     display:none;
   }
+  .col-8 {
+    width: 66.66666667%;
+    overflow:hidden;
+  }
+  #about > div.contact.col-xs-12.col-4{
+    border-left: 2px solid #000;
+  }
+ 
 }
+
