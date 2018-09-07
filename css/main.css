@@ -235,7 +235,12 @@ img {
     overflow:hidden;
   }
   #about > div.contact.col-xs-12.col-4{
-    border-left: 2px solid #000;
+    border-left: 1px solid #000;
+    margin-top: 2em;
+  }
+  #about > div.info.col-xs-12.col-8 {
+    margin-top: 2em;
+  }
   }
  
 }
